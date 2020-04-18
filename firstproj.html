@@ -1,9 +1,90 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My first project</title>
+    <title>First Project</title>
+    <style>
+    *{
+      font-family: fantasy,sans-serif;
+    }
+
+     h1{
+       text-align:center;
+     }
+
+     #ir{
+       margin: 22px;
+       padding: 5px;
+     }
+
+     table{
+       border: 2px solid black;
+       border-collapse: collapse;
+       width: 80%;
+       text-align: center;
+     }
+
+     th{
+       border: 1px solid black;
+       background-color: lightgrey;
+     }
+
+     td{
+       border: 1px solid black;
+     }
+
+     .revolution{
+       color: red;
+     }
+
+    </style>
   </head>
   <body>
-    hello, world! I'm new here!
-  </body>
+    <h1>THE FOURTH INDUSTRIAL REVOLUTION</h1>
+    <div>
+    <ol>
+      <li>What is 4IR?</li>
+      <li>The role of Education and industry in 4IR</li>
+      <li>The role of engineers and designers in 4IR</li>
+      <li>Elon Musks fear (AI taking over)</li>
+    </ol>
+  </div>
+
+  <div id="ir">
+    <table>
+      <tr>
+        <th>Industrial Revolution</th>
+        <th>Duration</th>
+        <th>Inventions</th>
+      </tr>
+      <tr>
+        <td><span class="revolution">First</span> Industrial Revolution</td>
+        <td>1760-1840 </td>
+        <td>Mechanical Production, Railways, Steam engine </td>
+      </tr>
+      <tr>
+        <td><span class="revolution">Second</span> Industrial Revolution</td>
+        <td>1870-1940</td>
+        <td>Mass production, Electricity, Assembly line</td>
+      </tr>
+      <tr>
+        <td><span class="revolution">Third</span> Industrial Revolution</td>
+        <td>1960-2010</td>
+        <td>Semi-conductors, Computers, Personal devices, Internet </td>
+      </tr>
+      <tr>
+        <td><span class="revolution">Fourth</span> Industrial Revolution</td>
+        <td>Present</td>
+        <td>Cyber-physical-systems, AI, MAchine learning, IoT</td>
+      </tr>
+    </table>
+  </div>
+
+    <form>
+      <p>Get intouch</p>
+      <input type="text" placeholder="full name" name="name">
+      <input type="text" placeholder="email" name="email">
+      <button>submit</button>
+    </form>
+
+</body>
 </html>
